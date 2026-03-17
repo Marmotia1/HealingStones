@@ -13,11 +13,11 @@ All ancient architectural features, monuments, and smaller artifacts inevitably 
 This is the second phase of the project. It builds on the outcomes of the first phase that identified several promising approaches to identifying and refitting matching sculpture fragments. At the same time, the first phase highlighted several challenging tasks such as finding matches between segments of vastly different sizes, classifying fragments surfaces, and dealing with match imperfections caused by documentation errors and surface erosion. We hope to resolve these issues while working with the same test dataset: fragments of a single ancient Maya monument that was deliberately broken and cut by modern looters. The dataset offers a wide range of match types, from closely fitting breaks to fragments sharing surface topology yet separated by gaps.
 
 ## Tasks
-- Search for direct fit matches between surfaces (e.g. two parts of something broken).
-- Identify continuity of carved topography (e.g. parts of the same carved feature, but with gaps).
-- Identify continuity of surface designs (e.g. parts of the same carved feature, but with gaps).
-- Identify broader dimensional resemblance (e.g. the shape of the stone blocks used to make that sculptural facade).
-
+- Data reduction / re-topologizing
+- Surface classification and detection of break surfaces.
+- Geometric feature extraction
+- Finding matches between break surfaces
+- Aligning matched break surfaces accounting for data errors and gaps
 
 ## Expected results
 - Develop machine learning models that can reconstruct digitized fragments with at least 80% accuracy.
