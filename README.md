@@ -20,9 +20,10 @@ This is the second phase of the project. It builds on the outcomes of the first 
 - Aligning matched break surfaces accounting for data errors and gaps
 
 ## Expected results
-- Develop machine learning models that can reconstruct digitized fragments with at least 80% accuracy.
-- Train AI model to search for matches between digitized fragments for which is original orientation is certain.
-- Test and train AI model using fragments for which original orientation is uncertain.
+- Incorporate machine learning into the initial stages of the work pipeline (surface classification, fragment relationship prediction)
+- Detect and match breaks with at least 80% accuracy
+- Detect and match discontinuous areas of shared topology with at least 80% accuracy
+- Orient the matching fragments without overfitting
 
 ## Links
 [University of Alabama](https://www.ua.edu)
